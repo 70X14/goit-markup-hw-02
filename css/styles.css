@@ -27,6 +27,17 @@ vertical-align: middle;
 text-transform: uppercase;
 color: #2E2F42;
 }
+.logo3{
+   font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3%;
+vertical-align: middle;
+text-transform: uppercase;
+color: #F4F4FD; 
+}
 .ul-navigation {
     font-family: Roboto;
 font-weight: 500;
@@ -96,5 +107,157 @@ color: #ffffff;
 .button-order:hover {
     background-color: #404bbf;
     cursor: pointer;
+}
+.about-title{
+    font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 2%;
+}
+.about-par{
+    font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+}
+.team-section{
+width: 1440;
+height: 732;
+top: 1016px;
+opacity: 1;
+background-color:#F4F4FD;
+}
+.team-title{
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 2%;
+text-align: center;
+width: 162;
+height: 40;
+top: 1136px;
+left: 639px;
+opacity: 1;
+}
+.team-list{
+    display: flex;
+}
+.team-card{
+   width: 264;
+opacity: 1;
+border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+padding-bottom: 32px;
+gap: 32px;
+
+box-shadow: 0px 2px 1px 0px #2E2F4214;
+
+box-shadow: 0px 1px 1px 0px #2E2F4229;
+
+box-shadow: 0px 1px 6px 0px #2E2F4214;
+background-color: #ffffff;
+}
+.team-name{
+    width: 134;
+height: 24;
+opacity: 1;
+font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 2%;
+text-align: center;
+}
+.team-pos{
+    width: 144;
+height: 24;
+opacity: 1;
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+text-align: center;
+}
+.portfolio-section{
+    width: 1128;
+height: 1000;
+top: 1868px;
+left: 156px;
+border-width: 1px;
+opacity: 1;
+background-color: #E7E9FC;
+}
+.portfolio-title{
+    width: 218;
+height: 40;
+top: 1868px;
+left: 611px;
+opacity: 1;
+font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 2%;
+text-align: center;
+}
+.portfolio-list{
+    display: flex;
+    gap: 32px;
+}
+.portfolio-card{
+    width: 360;
+height: 420;
+top: 1980px;
+left: 156px;
+opacity: 1;
+}
+.card-title{
+    width: 118;
+height: 24;
+opacity: 1;
+font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 2%;
+}
+.card-par{
+    width: 30;
+height: 24;
+opacity: 1;
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+
+}
+.box-footer{
+    width: 1440;
+height: 312;
+top: 2988px;
+opacity: 1;
+background-color: #2E2F42;
+}
+.footer-par{
+    font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color: #E7E9FC;
 }
 
