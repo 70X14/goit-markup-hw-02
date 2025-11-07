@@ -1,0 +1,100 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+.logo1 {
+    font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3%;
+vertical-align: middle;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.logo2 {
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3%;
+vertical-align: middle;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.ul-navigation {
+    font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color: #2E2F42
+}
+.li-navigation:hover {
+    color: #4d5ae5;
+    cursor: pointer;
+    
+}
+.ul-contacts{
+    font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color: #434455;
+}
+.li-contacts:hover{
+    color: #4d5ae5;
+    cursor: pointer;
+}
+.effective-section{
+    width: 1440;
+height: 600;
+top: 72px;
+opacity: 1;
+background-color: #2E2F42;
+}
+.effective-solutions {
+    font-family: Roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 2%;
+text-align: center;
+color: #ffffff;
+}
+.button-order {
+    width: 169;
+height: 56;
+top: 428px;
+left: 636px;
+opacity: 1;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+gap: 10px;
+border-radius: 4px;
+background-color: #4d5ae5;
+font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 4%;
+vertical-align: middle;
+color: #ffffff;
+}
+.button-order:hover {
+    background-color: #404bbf;
+    cursor: pointer;
+}
+
