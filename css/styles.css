@@ -1,9 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 a {
     text-decoration: none;
     color: inherit;
 }
 li {
     list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.navigation{
+    display: flex;
+}
+.logo-full{
+    margin: 24px 0px 24px 156px
 }
 .logo1 {
     font-family: Raleway;
@@ -45,7 +67,12 @@ font-style: Medium;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 2%;
-color: #2E2F42
+color: #2E2F42;
+display: flex;
+margin: 24px 0px 24px 31px
+}
+.li-navigation{
+    margin-left: 40px;
 }
 .li-navigation:hover {
     color: #4d5ae5;
@@ -60,6 +87,11 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 2%;
 color: #434455;
+display: flex;
+justify-content: flex-end;
+}
+.li-contacts{
+    margin-left: 24px;
 }
 .li-contacts:hover{
     color: #4d5ae5;
@@ -107,6 +139,12 @@ color: #ffffff;
 .button-order:hover {
     background-color: #404bbf;
     cursor: pointer;
+}
+.about-section{
+    
+}
+.about-list{
+    display: flex;
 }
 .about-title{
     font-family: Roboto;
@@ -195,6 +233,7 @@ left: 156px;
 border-width: 1px;
 opacity: 1;
 background-color: #E7E9FC;
+display: inline;
 }
 .portfolio-title{
     width: 218;
